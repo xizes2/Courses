@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+
+ <h1>Trabalhando com Listas</h1>   
+
+ <h2>Listas Ordenadas</h2>
+ <p>Para ordenar uma lista vc deve usar a tag 'ol' (ordered list) e depois  a tag 'li' para cada item da lista. Vc ainda pode usar os parâmetros 'type', que determina o tipo de 'tick' da lista e também o parâmetro 'start', que determina o 'tick' inicial, apenas para ticks numéricos.</p>
+ <ol type="1">
+     <li>Acordar</li>
+     <li>Estudar HTML</li>
+     <li>Tomar café da manhã</li>
+     <li>Alimentar o cão</li>
+     <li>Pegar carro mecanico</li>
+ </ol>
+
+ <h2>Listas Não Ordenadas</h2>
+ <p>A tag para fazer listas não ordenadas é 'ul' (unordered list) e cada item dentro da lista deve usar a tag 'li'.</p>
+ <ul>
+     <li>fazer robozinho para me inscrever em vagas de analista de dados</li>
+     <li>continuar estudando dados</li>
+     <li>acelerar os estudos de web dev</li>
+ </ul>
+
+ <h2>Nested Lists</h2>
+ <p>Podemos ter listas dentro de listas e misturar os diferentes tipos de listas.</p>
+ <ol type="A">
+     <li>Lista Principal</li> 
+     <ol>
+         <li>sub lista</li>
+         <li>sub lista</li>
+         <li>sub lista</li> 
+     </ol>
+     <li>Lista Principal 2</li>
+     <ol type="i">
+         <li>sub list</li>
+         <li>sub list</li>
+         <li>sub list</li>
+     </ol>
+     <li>Lista Principal 3</li>
+     <ul>
+         <li>sub lista (sem ordem)</li> 
+         <li>sub lista (sem ordem)</li>
+         <li>Sub lista (sem ordem)</li>
+     </ul>
+ </ol>
+ <p>Muita atenção à organização das tags já que pode ser um pouco confuso.</p>
+
+ <h2>Lista de Definições</h2>
+ <p>As listas de definições funcionam como um dicionário em Python. Primeiro vc usa a tag 'dt', que define o nome do termo. Depois a tag 'dd' que dá a definição do termo.</p>
+ <dt>HTML</dt>
+ <dd>Linguagem de marcação para criação de conteúdos de um site.</dd>
+ <dt>CSS</dt>
+ <dd>Linguagem de marcação para a criação do design de um site.</dd>
+ <dt>JavaScrip</dt>
+ <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+ 
+
+</body>
+</html>
