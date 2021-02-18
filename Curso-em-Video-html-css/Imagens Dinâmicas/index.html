@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Trabalhando com imagens dinâmicas</h1>
+    <p>Para construir um bom site é importante vc adaptar as imagens para os diferentes tamanhos de telas onde o site será visualizado.</p>
+    <p>A estrutura do bloco de codigo que vai conter a foto deve ser da seguinte forma: <br>
+    1 - Todo codigo relacionado à imagem deverá estar envelopado dentro da tag 'picture'. <br>
+    2 - Para facilitar a montagem desse bloco de codigo, usualmente vc começa colocando a maior imagem usando a tag 'img' (quando o bloco estiver concluído esta será a última linha do mesmo.) <br>
+    3 - Acima da linha com a tag 'img' (onde vc usou a maior imagem), vc deve usar a tag 'source media type'. Vc deve alterar o argumento min-width para max-width e preencher esse limite com o tamanho máximo antes da janela passar a exibir a foto com o 2o maior tamanho (foto media). <br>
+    4 - Vc pode usar esse procedimento quantas vezes achar necessário, sempre adicionando a tag 'source media type' acima da anterior, ou seja, na 1a linha desse bloco de codigo vc vai referenciar a menor foto e na última linha, a maior foto. O usual são 3 fotos, uma grande, uma media e uma pequena, pensando que o site será exibido. basicamente, em 3 tamanhos diferentes de tela.</p>
+
+    <picture>
+        <source media="(max-width: 650px)" srcset="fotos/foto-pequena-intense-tracer.png" type="image/png">
+        <source media="(max-width: 1150px)" srcset="fotos/foto-media-intense-tracer.png" type="image/png">
+        <img src="fotos/foto-grande-intense-tracer.png" alt="imagem flexível">
+    </picture>
+
+</body>
+</html>

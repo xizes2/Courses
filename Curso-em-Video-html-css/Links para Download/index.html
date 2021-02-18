@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links Externos</title>
+</head>
+<body>
+    <h1>Usando Links Externos</h1>
+
+    <p>Para criar um link para um site externo no seu texto vc deve envelopar a palavra ou texto com a tag 'a'.</p>
+    
+    <p>Teste 1:</p>
+    
+    <p>Vc pode acessar o meu <a href="https://github.com/xizes2">repositório público no github</a>. (Esse link vai acessar o site do link na mesma aba)</p>
+    
+    <p>Se vc quiser abrir uma segunda aba para acessar o link (RECOMENDADO) vc deve usar os parâmetros 'target = _blank', para que a aba onde será aberto o link esteja em branco antes de carregar o site. E também o parâmetro 'rel = external' para abrir o link em uma nova aba.</p>
+    
+    <p>Teste 2 - Vamos provar a segunda opção:</p>
+    
+    <p>Vc pode acessar o meu <a href="https://github.com/xizes2" target="_blank" rel="external">repositório público no github.</a> (Esse link abrirá em uma nova aba)</p>
+
+    <h1>Usando Links Internos</h1>
+
+    <p>Para navegar internamente pelo site vc deverá criar novos arquivos html e apontar para ele usando a tag 'a'. O procedimento é o mesmo de cima.</p>
+    <p>Para acessar a <strong>pagina 2</strong> do meu site vc pode clicar <a href="pag002.html" target="_self" rel="next">aqui</a>.</p>
+
+    <p>Porém, se asua nova página estiver dentro de uma pasta, vc deverá especificar todo o caminho e não só o nome da pagina.</p>
+    <p>Para acessar nossa <strong>página de noticias</strong>, clique <a href="noticias/pag003.html" target="_self" rel="next">aqui</a>.</p>
+
+    <h1>Links para Download</h1>
+
+    <p>Para criar um link para download vc deve usar a tag 'a', usando o caminho do diretório onde o arquivo está localizado. O processo é basicamente o mesmo dos outros links. Aparentemente quando o navegador reconhece o formato do arquivo ele abre diretamente no proprio navegador ao invés de baixá-lo.</p>
+
+    <ul>
+        <li><a href="arquivos/cv fernando paulino  data analyst.pdf" target="_blank" rel="external">Baixar cv analista de dados Fernando.</a></li>
+        <li><a href="arquivos/logo data science 2.jpg" target="_blank" rel="external">Baixar logo data science</a></li>
+    </ul>
+
+
+
+
+
+
+</body>
+</html>
