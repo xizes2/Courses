@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Estilos Locais / Internos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS - Trabalhando com estilos</h1>
+
+    <p>Há 3 formas de trabalhar o estilo das páginas em html: inline, interno e externo. Abaixo veremos as características de cada um deles.</p>
+
+    <h2>Estilo Inline</h2>
+
+    <p>O estilo inline deve ser aplicado a cada tag do código, ou seja, se vc tiver 10 paragrafos em uma página, terá que repetir a confirguração de estilo em cada um desses parágrafos.</p>
+    <p>Essa maneira de estilizar a página é mais utilizada quando vc quer estilizar uma tag em particular.</p>
+    <p>Ela é a forma de estilização mais forte. Ou seja, se estivermos usando uma das duas outras formas na página, mas uma das tags tiver uma estilização inline, é essa que vai predominar.</p>
+
+    <h2>Estilo local ou interno</h2>
+
+    <p>Nessa forma de estilo vc configura o estilo de toda a página em um bloco de código que vem antes do 'body' da página. Na verdade vc vai determinar o estilo de cada tipo de tag que vc usar naquela página.</p>
+    <p>Por exemplo: <ul>
+        <li>vc vai configurar as tags 'h1' para terem a cor vermelha e ficarem alinhadas à direita</li> 
+        <li>as tags 'p' terão cor verde e tamanho 14px</li>    
+        <li>as tags 'a' abrirão em uma nova aba.</li>
+    </ul></p>
+
+    <h2>Estilo externo</h2>
+
+    <p>No estilo externo vc vai configurar um arquivo 'style.css' contendo as configurações de todas as tags que vc quiser e vai aplicar esse arquivo à todas as páginas que desejar.</p>
+    <p>Para aplicar esse arquivo à página vc deve usar a tag 'link' abaixo do 'title' e referenciar o caminho do arquivo no parâmetro 'href'</p>
+    <p>Essa é a maneira mais usual para montar o esquema base de estilização do seu site já que vc só precisa criar um arquivo e aplicá-lo à todas as páginas ao invés de fazer isso linha por linha (inline) ou página por página (local).</p>
+
+    <p><a href="pagina02.html">Ir apra página 2</a></p>
+</body>
+</html>
