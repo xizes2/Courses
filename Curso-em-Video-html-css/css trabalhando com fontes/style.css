@@ -1,0 +1,14 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-style: oblique;
+    font-variant: small-caps;
+    line-height: 60px;
+    /*text-decoration: underline overline;*/
+    text-indent: 100px;
+}
+p{
+    font: 17px Arial, Helvetica;
+    font: oblique small-caps 40px/60px 'Gill Sans', Verdana;
+    text-decoration: overline underline;
+}

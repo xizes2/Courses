@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajando con Selectores</title>
+    <style type="text/css" media="all">
+    
+    /*Zerando las configuraciones padrón del navegador.*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Este selector irá configurar solamente el elemento con la id que estoy llamando.*/
+    #título-selectores{
+        font-size: 35px;
+        font-weight: 700;
+        font-family: cursive;
+    }
+    body{
+        line-height: 40px;
+    }
+
+    </style>
+</head>
+<body>
+    <h1 id="título-selectores"> Trabajando con Selectores</h1>
+
+    <h2>Principales tipos de selectores:</h2>
+    <ul>
+        <li>Selector por Tags: h1, h2, p, div, ul, li, etc.</li>
+        <li>Selector Universal: se representa con '*'. Normalmente es utilizado para 'zerar' las configuraciones padrón del navegador.</li>
+        <li>Selector por 'id' o 'class': El nombre del selector 'id' no se puede repetir en cada página, o sea, puedo tener varios 'ids' en una página, pero cada uno debe tener un nombre distinto. Mientras el selector 'class' si que se puede repetir y contener el mismo nombre en una página.</li>
+    </ul>
+</body>
+</html>
